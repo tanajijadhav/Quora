@@ -1,0 +1,19 @@
+.profile-sidebar .ant-divider{
+    margin: 6px 0 12px 0;
+
+}
+
+
+.profile-sidebar h4 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.profile-sidebar-content .ant-divider{
+    margin: 6px 0 12px 0;
+}
+
+.profile-sidebar-content h4 {
+    font-size: 15px;
+    font-weight: 500;
+}

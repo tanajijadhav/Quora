@@ -1,0 +1,19 @@
+.chat {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.chat .ant-card-body {
+    padding: 10px;
+}
+
+.chat .ant-card {
+    max-width:60%;
+    margin: 0 10px; 
+    border-radius: 16px;
+}
+
+.chat-div {
+    
+    margin-bottom: 15px;
+}

@@ -1,0 +1,53 @@
+.name {
+    margin-bottom: 10px;
+    display: flex;
+}
+.name input {
+    display: inline;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.35;
+    border-radius: 4px;
+    border: 1px solid #c3c3c3;
+    margin-right: 5px;
+    padding: 0;
+}
+
+.edit-name .ant-typography-secondary {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.name-buttons-div {
+    margin-top: 5px;
+    display: inline;
+    text-align: right;
+}
+
+.edit-name .ant-typography-secondary:hover { 
+    text-decoration: underline;
+}
+
+.edit-name .edit { 
+    visibility: hidden;
+}
+
+.edit-name:hover .edit{ 
+    visibility: visible;
+}
+
+.edit-name h2 {
+    display: inline;
+    margin-right: 5px;
+}
+
+.name-buttons-div .ant-typography-secondary {
+    margin-right: 5px;
+}
+
+.name-buttons-div .ant-typography-secondary:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+

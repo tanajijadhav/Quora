@@ -1,0 +1,10 @@
+.new-message-modal .ant-modal-body {
+    padding: 15px;
+    min-height: 350px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.new-message-modal textarea {
+    margin-top: 20px
+}
+

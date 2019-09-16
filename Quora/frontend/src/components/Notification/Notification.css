@@ -1,0 +1,19 @@
+.notification {
+    max-width: 500px;
+    min-width: 500px;
+}
+
+.notification .name {
+    display: inline;
+}
+.notification .name:hover {
+    text-decoration: underline;
+    color: #1890ff;
+    cursor: pointer;
+}
+
+.notification .question:hover {
+    text-decoration: underline;
+    color: #1890ff;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.description {
+    margin-bottom: 10px;
+}
+
+.edit-description .ant-typography-secondary {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.description-buttons-div {
+    margin-top: 5px;
+
+    text-align: right;
+}
+
+.edit-description .ant-typography-secondary:hover { 
+    text-decoration: underline;
+}
+
+.edit-description .edit { 
+    visibility: hidden;
+}
+
+.edit-description:hover .edit{ 
+    visibility: visible;
+}
+
+.edit-description h4 {
+    font-weight: 300;
+    font-size: 15px;
+    display: inline;
+    margin-right: 5px;
+}
+
+.description-buttons-div .ant-typography-secondary {
+    margin-right: 5px;
+}
+
+.description-buttons-div .ant-typography-secondary:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+

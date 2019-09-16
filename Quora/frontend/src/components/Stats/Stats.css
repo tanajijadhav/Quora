@@ -1,0 +1,130 @@
+.ContentWrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  *zoom: 1;
+  /* padding-left: 10px;
+  padding-right: 50px;
+  padding-bottom: 32px; */
+  padding-right: 50px;
+}
+
+.statsTitle {
+  float: left;
+  font-size: 19px;
+  color: #333;
+  letter-spacing: -0.5px;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+.statsAnswerList {
+  overflow-y: scroll;
+  position: relative;
+  box-sizing: border-box;
+  background: #fafafa;
+  border-right: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  height: 550px;
+  color: #949494;
+}
+
+.statsgraph {
+  background: #fafafa;
+  border-top: 1px solid #e2e2e2;
+  height: 577px;
+}
+
+.ContentWrapper .ant-menu-item {
+  position: relative;
+  padding: 8px;
+  background: #fafafa;
+  color: #949494;
+  font-weight: 500;
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 15px !important;
+  margin: 0px !important;
+}
+
+.ContentWrapper .ant-menu-item-selected {
+  background-color: #ffff !important;
+  padding: 8px;
+  font-size: 15px !important;
+  margin: 0px !important;
+  color: #2b6dad !important;
+}
+
+.statsTab {
+  height: 125px;
+  float: left;
+  padding: 20px 0;
+  text-align: center;
+  cursor: pointer;
+  background: #fafafa;
+  border-top: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  width: 33.333%;
+}
+
+.statsTab-active {
+  height: 125px;
+  float: left;
+  padding: 20px 0;
+  text-align: center;
+  cursor: pointer;
+  background: #fff;
+  border-top: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  border-bottom: 1px solid #fff;
+  width: 33.333%;
+}
+
+.viewsNum,
+.upvotesNum,
+.downvotesNum {
+  margin-bottom: 5px;
+  line-height: 1;
+  font-size: 60px;
+  font-weight: bold;
+  color: #333;
+}
+
+.viewslabel,
+.upvoteslabel,
+.downvoteslabel {
+  color: #949494;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#chart {
+  background-color: #fff;
+  border: none;
+}
+
+.bar {
+  shape-rendering: crispEdges;
+}
+
+.bar-label {
+  fill: #000;
+  text-anchor: middle;
+  font-size: 18px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.gridline path,
+.gridline line {
+  fill: none;
+  stroke: #ccc;
+  shape-rendering: crispEdges;
+}

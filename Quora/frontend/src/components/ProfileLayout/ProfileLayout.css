@@ -1,0 +1,18 @@
+/* .credential-and-highlights {
+    margin-bottom: 20px;
+} */
+.profile-layout .credential-and-highlights h4{
+    font-size: 15px;
+    font-weight: 500;
+    display: inline;
+}
+
+.profile-layout .credential-and-highlights .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-layout .credential-and-highlights .ant-divider{
+    margin: 12px 0;
+}

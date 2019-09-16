@@ -1,0 +1,16 @@
+.knows-about h4 {
+    font-size: 15px;
+    font-weight: 500;
+    display: inline;
+}
+
+.knows-about .ant-divider{
+    margin: 12px 0;
+}
+
+.knows-about-modal .ant-list {
+    position: absolute;
+    z-index: 1000;
+    width: 90%;
+    background: white;
+}

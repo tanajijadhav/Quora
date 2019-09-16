@@ -1,0 +1,10 @@
+.thread .ant-modal-body {
+    padding: 15px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.thread-title {
+    display: flex;
+    align-items: baseline;
+}

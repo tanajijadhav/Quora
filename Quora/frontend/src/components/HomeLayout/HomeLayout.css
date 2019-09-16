@@ -1,0 +1,9 @@
+.home .card h3 {
+    margin: 0;
+    color: #949494;
+    cursor: pointer;
+}
+
+.home .card h3:hover {
+    color: #1890ff;
+}

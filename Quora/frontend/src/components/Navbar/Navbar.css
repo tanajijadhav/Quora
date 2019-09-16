@@ -1,0 +1,39 @@
+.logo {
+    /* width: 120px; */
+    height: 50px;
+    float: left;
+    margin-right: 30px;
+  }
+
+  .navbar { 
+    background: #fff;
+    padding: 0px 200px;
+    border: 0;
+    border-bottom: 1px solid #e8e8e8;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    width: 100%;
+    /* margin-bottom: 50px; */
+  }
+
+  .navbar-search:hover {
+    cursor: default;
+  }
+  .navbar-profile {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+
+  .navbar-button {
+      cursor: default;
+  }
+
+  
+  .navbar .ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected {
+    color: #b92b27;
+    border-bottom: 2px solid #b92b27;
+  }
+ 
