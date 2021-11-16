@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/hrishiwaikar/Quora#readme",
   "dependencies": {
-    "aws-sdk": "^2.448.0",
+    "aws-sdk": "^2.814.0",
     "bcrypt": "^3.0.2",
     "cluster": "^0.7.7",
     "express": "^4.16.3",
