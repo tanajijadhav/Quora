@@ -20,7 +20,7 @@
     "aws-sdk": "^2.448.0",
     "bcrypt": "^3.0.2",
     "cluster": "^0.7.7",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "ioredis": "^4.9.0",
     "joi": "^14.3.1",
     "jsonwebtoken": "^8.3.0",
